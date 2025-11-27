@@ -206,7 +206,7 @@ server <- function(input, output, session) {
                      tickmode = "linear",
                      tick0 = 0,
                      dtick = 1,
-                     autorange = 2),
+                     autorange = TRUE),
         margin = list(l = 120)  # Adjust left margin for longer y-axis labels
       )
   })
